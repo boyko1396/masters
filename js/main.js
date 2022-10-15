@@ -17,7 +17,6 @@ $(document).ready(function(){
     $('.js-a-tariffs-slider-init').slick({
       arrows: false,
       adaptiveHeight: true,
-      centerMode: true,
       dots: true,
       variableWidth: true
     });

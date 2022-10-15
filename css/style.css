@@ -670,6 +670,7 @@ h2.a-principles__title {
 }
 
 .a-tariffs-card {
+    padding: 0 24px;
     font-size: 16px;
 }
 
@@ -685,7 +686,8 @@ h2.a-principles__title {
 }
 
 .a-tariffs-card__line {
-    padding: 5px 15px;
+    margin: 0 -24px;
+    padding: 8px 24px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -707,7 +709,9 @@ h2.a-principles__title {
         flex-shrink: 0;
 }
 
-.a-tariffs-slider {
+.a-tariffs-card__btn-buy {
+    width: 100%;
+    margin: 15px 0 0;
 }
 
 .a-tariffs-slider__el {
@@ -719,11 +723,12 @@ h2.a-principles__title {
 }
 
 .a-tariffs-slider__slide {
-    max-width: calc(100vw - 60px);
+    max-width: 360px;
+    margin-right: 30px;
 }
 
-.a-tariffs-slider__slide-card {
-    margin: 0 24px;
+.a-tariffs-slider__slide {
+    max-width: 360px;
 }
 
 /* a-work-road
@@ -890,6 +895,13 @@ h2.a-principles__title {
     .a-title--size-4 {
         font-size: 20px;
     }
+    .a-btn {
+        background: transparent;
+        padding: 14px 24px;
+        font-size: 18px;
+        border-width: 2px;
+        border-radius: 3px;
+    }
     .a-content {
         font-size: 14px;
     }
@@ -1008,7 +1020,7 @@ h2.a-principles__title {
         left: initial;
     }
     .a-tariffs__title {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
         text-align: center;
     }
     .a-tariffs-table {
@@ -1090,9 +1102,6 @@ h2.a-principles__title {
     .a-principles__list-col:nth-child(2) .a-principles-card {
         border-top-width: 0;
     }
-    .a-tariffs-slider__slide-card {
-        margin: 0 12px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -1106,5 +1115,8 @@ h2.a-principles__title {
     }
     .a-principles__list-col:nth-child(2) .a-principles-card {
         border-top-width: 1px;
+    }
+    .a-tariffs-slider__slide {
+        max-width: 320px;
     }
 }
